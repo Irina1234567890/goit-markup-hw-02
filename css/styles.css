@@ -20,3 +20,81 @@ a .span {
     font-size: 26px;
 }
 
+.site-nav a {
+    font-weight: 500;
+    color: var(--black-text);
+    size: 14px;
+}
+
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    font-weight: 500;
+    color: var(--grey-text);
+    size: 14px;
+}
+
+.contacts a:hover, 
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+.section-title {
+    color:var(--black-text);
+}
+
+.hero {
+    background: var(--baground-color);
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    color: var(--white-text);
+}
+
+.button {
+    font-weight: bold;
+    font-size: 16px;
+    background-color: var(--accent-color);
+    color: var(--white-text);
+}
+
+.feature .title {
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--black-text);
+}
+
+p {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey-text);
+}
+
+.section-second {
+    background-color: var(--baground-second);
+}
+.footer {
+    background-color: var(--baground-color);
+}
+.footer-studio {
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--white-text);
+}
+
+.footer-street {
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--white-text);
+}
+
+.footer-mail {
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--grey-text-op06);
+}
