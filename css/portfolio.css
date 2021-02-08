@@ -42,20 +42,20 @@ a .span {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+     color: var(--accent-color);
+}
+
 .section-title {
     color:var(--black-text);
 }
 
-.hero {
-    background: var(--baground-color);
-}
 
-.hero-title {
-    font-weight: 900;
-    font-size: 44px;
-    color: var(--white-text);
+.knopki {
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--black-text);
 }
-
 .button {
     font-weight: bold;
     font-size: 16px;
@@ -63,20 +63,16 @@ a .span {
     color: var(--white-text);
 }
 
-.feature .title {
+.table-title {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 18px;
     color: var(--black-text);
 }
 
-p {
-    font-weight: 400;
-    font-size: 14px;
+.paragraf {
+    font-weight: normal;
+    font-size: 16px;
     color: var(--grey-text);
-}
-
-.section-second {
-    background-color: var(--baground-second);
 }
 .footer {
     background-color: var(--baground-color);
