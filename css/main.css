@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    text-decoration: none;
 }
 
 .header {
@@ -100,5 +101,5 @@ p {
 .footer-mail {
     font-weight: normal;
     font-size: 14px;
-    color: var(--grey-text-op06);
+    color: rgba(255, 255, 255, 0.6);
 }
