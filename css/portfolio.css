@@ -1,29 +1,41 @@
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #FFFFFF;
+    letter-spacing: 0.03em;
 }
 
+a {
+    text-decoration: none;
+}
 .header {
     background-color:  #FFFFFF;
+    letter-spacing: 0.02em;
 }
+a {
+    text-decoration: none;
+} 
+
 a .span {
    color: #2196F3;
    font-family: 'Raleway', sans-serif;
-   font-weight: bold;
+   font-weight: 700;
    font-size: 26px;
+   line-height: 1.2;
 }
 
 .nav-studio {
     color: var(--black-text);
     font-family: 'Raleway', sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
+    line-height: 1.2;
 }
 
 .site-nav a {
     font-weight: 500;
     color: var(--black-text);
-    size: 14px;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .site-nav a:hover, 
@@ -34,7 +46,8 @@ a .span {
 .contacts a {
     font-weight: 500;
     color: var(--grey-text);
-    size: 14px;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .contacts a:hover, 
@@ -55,27 +68,41 @@ a .span {
     font-weight: 500;
     font-size: 16px;
     color: var(--black-text);
+    line-height: 1.6;
 }
-.button {
+/*button {
     font-weight: bold;
     font-size: 16px;
-    background-color: var(--accent-color);
     color: var(--white-text);
+     background-color: var(--accent-color);
+}*/
+
+.contacts a:hover, 
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+     color: var(--accent-color);
 }
 
 .table-title {
-    font-weight: bold;
-    font-size: 18px;
-    color: var(--black-text);
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
 }
 
-.paragraf {
-    font-weight: normal;
+.paragraph {
+    font-weight: 400;
     font-size: 16px;
     color: var(--grey-text);
+    font-family: Roboto;
+    line-height: 1.9;
 }
+
 .footer {
-    background-color: var(--baground-color);
+    background: var(--baground-color);
 }
 .footer-studio {
     font-weight: bold;
@@ -84,13 +111,18 @@ a .span {
 }
 
 .footer-street {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     color: var(--white-text);
+    line-height: 1.7;
 }
 
 .footer-mail {
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+}
+
+.mailto, .tel {
+    color: var(--grey-text-op06);
 }
